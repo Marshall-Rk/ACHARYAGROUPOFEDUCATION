@@ -8478,6 +8478,8 @@ h1, h2, h3, h4, h5,
   .owl-carousel:hover .owl-nav .owl-next {
     right: -25px; }
   .owl-carousel.home-slider {
+    touch-action: auto;
+    -ms-touch-action: auto;
     position: relative;
     height: 600px;
     z-index: 0; }

@@ -1,3 +1,7 @@
+.slick-slider {
+    touch-action: auto;
+    -ms-touch-action: auto;
+}
 What we do?
 Admission
 Courses
@@ -53,11 +57,13 @@ Engineering - B.E
  Information Science & Engineering
  Mechanical Engineering
  Mechatronics Engineering
+
 Engineering - M.Tech
  Bio Technology
  Computer Science & Engineering
  Digital Communication Engineering
  Machine Design
+
 Research - Ph.D
  Bio-Technology
  Chemistry
@@ -69,6 +75,7 @@ Research - Ph.D
  Master of Computer Application
  Mechanical Engineering
  Physics
+
 Diploma in Engineering
  Aeronautical Engineering
  Automobile Engineering
@@ -79,11 +86,13 @@ Diploma in Engineering
  Electronics & Communication Engineering
  Mechanical Engineering
  Mechatronics Engineering
+
 Nursing
  Diploma in Nursing
  B. Sc. - Nursing
  Post B. Sc. - Nursing
  M. Sc. - Nursing
+
 Pharmacy
  D. Pharm - Diploma in Pharmacy
  B. Pharm - Bachelor of Pharmacy
@@ -98,12 +107,14 @@ Pharmacy
  PhD - Pharmaceutical Chemistry
  PhD - Pharmaceutics
  PhD - Pharmacology
+
 Management
  B. B. A - Bachelor of Business Administration
  B. B. A - Bachelor of Business Administration in Aviation
  P.G.D.M. - Post Graduate Diploma in Management
  M. B. A - Master of Business Administration
  M. F. A - Master of Finance & Accounting
+
 Allied Health Sciences
  B.Sc Anesthesia and Operation Theatre Technology
  BSc in Respiratory Care Technology
@@ -115,9 +126,11 @@ Allied Health Sciences
  Bachelor in Hospital Administration
  Bachelor in Occupational Therapy
  Bachelor in Audiology and Speech Language Pathology
+
 Architecture
  Diploma in Architecture
  Bachelor of Architecture
+
 Arts, Science & Commerce
  B. A - Bachelor of Arts (Psychology / Journalism / English)
  B. A - Bachelor of Arts (Criminology / Psychology / Sociology)
@@ -131,17 +144,21 @@ Arts, Science & Commerce
  M. Sc. - Master of Science in Psychology
  M. Com. - Master of Commerce
  MSW - Master of Social Work
+
 Visual Arts
  B.V.A. - Graphic & Communication Design
  B.V.A. - Animation & Game Art
  B.V.A. - Interior and Spatial Design
  B.V.A. - Product Design
+
 Fashion
  Diploma in Apparel Design & Fabrication Technology
  B. Sc. F. A. D - Bachelor of Science (Fashion & Apparel Design)
+
 Computer Application
  B. C. A - Bachelor of Computer Applications
  M. C. A - Master of Computer Applications
+
 Journalism
  M. A - Master of Arts (Journalism & Mass Communication)
 Physiotherapy
