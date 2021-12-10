@@ -25,26 +25,28 @@
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
 
-    <script>
-      //Get the button
-      var mybutton = document.getElementById("myBtn");
-      
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function() {scrollFunction()};
-      
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-        } else {
-        mybutton.style.display = "none";
-        }
-      }		
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-      </script>
+
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
 	  <div class="bg-top navbar-light">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
@@ -89,9 +91,9 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
             <li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
-	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-	        	<li class="nav-item"><a href="project.html" class="nav-link">Courses</a></li>
-	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	        	<li class="nav-item"><a href="index.html#about" class="nav-link">About</a></li>
+	        	<li class="nav-item"><a href="index.html#courses" class="nav-link">Courses</a></li>
+	        	<li class="nav-item"><a href="index.html#services" class="nav-link">Services</a></li>
 	        	<li class="nav-item"><a href="blog.html" class="nav-link">Gallery</a></li>
 	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
@@ -105,42 +107,118 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">10th SSC - All Medium</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>10th SSC - All Medium <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-2 bread">Partnered College</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span><span>Partnered College<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
     </section>
 
-		<section class="ftco-section">
+    <section class="ftco-section">
 			<div class="container">
-				<div class="row d-flex">
-					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
-						<div class="wrap-about-border">
-							<div class="img" style="background-image: url(course/ssc.jpg); border"></div>
-							<div class="text">
-								<h3>10th SSC - All Medium</h3>							
-								<p><a href="tel:9503182793"  style="border-radius: 0px;" class="btn btn-primary py-3 px-4">Call us</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
-          	<h2 class="mb-4">10th SSC - All Medium</h2>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.</p>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-						<p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their</p>
-					</div>
-				</div>
+				<div class="row">
+          <div class="col-lg-8 ftco-animate">
+            <h2 class="mb-3">Colleges/Universities We've Partnered in India</h2>           
+              <img src="images/5e7846d79d118_1.jpg" alt="" class="img-fluid">
+
+              <ul  class="list-unstyled ul-check success">
+                <li class="mt-3">• Shubhash pharmey College</li>
+                <li>• Patel Nursing & Pharmacy</li>
+                <li>• Gauthama Siddartha Pharmacy College</li>
+                <li>• Gautham Group of Institution</li>
+                <li>• Priyadarshan College of Pharmacy</li>
+                <li>• Raja Rajeshwari Medical & Engineering College</li>				
+                <li>• St. Joh's College of Pharmacy</li>	
+                <li>• Sushrutha Medical College</li>
+                <li>• GSM Medical College</li>
+                <li>• KLE Univerisity</li>
+                <li>• RKDF Group Madhya Pradesh</li>
+                <li>• AJP Abdul Kalam Univerisity</li>
+                <li>• Dr. DY PAtil Mumbai</li>				
+                <li>• Bhartiya Vidyapeeth Pune</li>	
+                <li>• Yashwant Rao Chauhan University</li>
+                <li>• Vaidanata Medical College & Research Palghar</li>
+                <li>• Shivaji University Kolhapur</li>
+                <li>• Sion Medical College</li>
+                <li>• KJ Somaiya Medical & Engineering Campus</li>
+                <li>• BM Reddy Acharya Group of Education</li>				
+                <li>• Sir Jp BED College & Research Center</li>	
+                <li>• Rahul Group of Institution</li>	
+                <li>• Krishna Medical College</li>	
+               
+              
+              </ul>
+          
+        
+
+
+            <div class="">
+              
+
+               
+             
+              
+              
+            </div>
+          </div> <!-- .col-md-8 -->
+
+          <div class="col-lg-4 sidebar ftco-animate">
+            <div class="sidebar-box">
+
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon icon-phone"></span>
+                  <input type="text" class="form-control" placeholder="Call 8369830324 For Free Demo ">
+                </div>
+              </form>
+
+            </div>
+            <div class="sidebar-box ftco-animate">
+            	<h3>Students Placed in Top Universities  </h3>
+              <ul class="categories">
+                <li><a href="#">Business </a></li>
+                <li><a href="#">Finance <span>(8)</span></a></li>
+                <li><a href="#">Auto loan <span>(2)</span></a></li>
+                <li><a href="#">Real Estate <span>(2)</span></a></li>
+                <li><a href="#">Businessman <span>(2)</span></a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar-box ftco-animate">
+              <h3>Why Acharya?</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Acharya Education Helps Students to get their dream College</a></h3>
+                
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Acharya Helps Students to get Placed at their dream Company</a></h3>
+                  
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Acharya Education Mentor Students by Industry Experts</a></h3>
+                 
+                </div>
+              </div>
+            </div>
+
+            
+
+         
+
+
+          
+          </div><!-- END COL -->
+        </div>
 			</div>
 		</section>
-
-		
-		
-	
-
-		
-		
-		
 		
     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3762.83825339264!2d72.81918876417437!3d19.419393346136566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sroom%2018%20first%20floor%20Akansha%20Tower%20opposite%20Bappa%20Sitaram%20shopping%20mall%20NSP%20East!5e0!3m2!1sen!2sin!4v1639122965325!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
@@ -221,8 +299,6 @@
         </div>
       </div>
     </footer>
-    
-    
   
 
   <!-- loader -->
