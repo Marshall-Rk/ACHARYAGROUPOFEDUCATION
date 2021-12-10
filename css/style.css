@@ -8930,7 +8930,7 @@ h1, h2, h3, h4, h5,
 
 .blog-entry {
   width: 100%;
-  border: 4px solid #d1ebf9; }
+  border: 1px solid #d1ebf9; }
   @media (min-width: 768px) {
     .blog-entry {
       margin-bottom: 30px; } }
