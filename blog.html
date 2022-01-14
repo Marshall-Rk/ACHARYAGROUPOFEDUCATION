@@ -27,7 +27,7 @@
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-center align-items-stretch">
     			<div class="col-md-4 d-flex align-items-center py-4">
-    				<a class="navbar-brand" href="index.html">Consolution</a>
+    				<a class="navbar-brand" href="index.php">Consolution</a>
     			</div>
 	    		<div class="col-lg-8 d-block">
 		    		<div class="row d-flex">
@@ -70,12 +70,12 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
+	        	<li class="nav-item"><a href="index.php" class="nav-link pl-0">Home</a></li>
 	        	<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
 	        	<li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
 	        	<li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
 	        	<li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -88,7 +88,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
             <h1 class="mb-2 bread">Blog</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
@@ -306,10 +306,10 @@
           <div class="col-md-6 col-lg-3">
             <div class="ftco-footer-widget mb-5">
             	<h2 class="ftco-heading-2">Subscribe Us!</h2>
-              <form action="#" class="subscribe-form">
+              <form action="newsletter.php" method="post" class="subscribe-form">
                 <div class="form-group">
-                  <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
-                  <input type="submit" value="Subscribe" class="form-control submit px-3">
+                  <input type="text"  name="email" class="form-control mb-2 text-center" placeholder="Enter email address">
+                  <input type="submit" name="submit" value="Subscribe" class="form-control submit px-3">
                 </div>
               </form>
             </div>
